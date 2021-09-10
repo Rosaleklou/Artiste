@@ -1,0 +1,266 @@
+html{
+    --main-color: #dddddd;
+    --second-color:
+}
+body{
+    /* background-color: ; */
+    /* padding: 10px; */
+    height: 100%;
+    width: auto;
+    /* border: solid 1px rgb(118, 119, 27); */
+    /* border-radius: 50px; */
+}
+header{
+    background-color: transparent;
+}
+.menu-nav{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: rgb(32, 32, 99); */
+    background-color: rgb(131, 33, 87);
+    border-radius: 100px;
+    
+}
+.menu-nav ul li.btn{
+    font-family: fantasy;
+    display: inline-block;
+    font-size: 20px;
+    padding: 30px;
+    color: black;
+    list-style-type: none;
+}
+.menu-nav ul li.btn a{
+    padding: 15px;
+    border-radius: 80px;
+    color: rgb(109, 98, 33);
+    background-color: white;
+    text-decoration: none;
+}
+.menu-nav ul li.btn:hover a{
+    color: rgb(253, 253, 253);
+    background-color: rgb(199, 49, 131);
+    transition: 3s; all;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(116, 114, 37);
+    font-family: 'Times New Roman', Times, serif;
+    /* position: absolute; */
+    /* top: 50%; 
+    right: 50%; */
+    /* transform: translate(00%,-20%);
+    /* text-transform: uppercase; */
+    /* font-family: verdana;
+    font-size: 6em;
+    font-weight: 100;
+    color: #f5f5f5;
+    text-shadow: 1px 1px 1px #919191,
+        1px 2px 1px #919191,
+        1px 3px 1px #919191,
+        1px 4px 1px #919191,
+        1px 5px 1px #919191,
+        1px 6px 1px #919191,
+        1px 7px 1px #919191,
+        1px 8px 1px #919191,
+        1px 9px 1px #919191,
+        1px 10px 1px #919191,
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    /* 1px 30px 60px rgba(16,16,16,0.4); */ 
+}
+
+#phrase-header{
+    font-size: 30px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: rgb(131, 33, 87);
+    text-shadow:  0 0 7px #fff, 
+    0 0 10px #fff, 
+    0 0 42px rgb(109, 98, 33),   
+    0 0 77px rgb(109, 98, 33), 
+    0 0 100px rgb(131, 33, 87); 
+}
+/* .....................................ANIMATION.....CSS............................. */
+.animation-pub{
+    margin-top: 70px;
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    /* background-color: rgb(131, 33, 87); */
+    /* position: absolute; */
+    top: 50%;
+    transform: translateY(-50%);
+}
+.text{
+    font-family: 'Times New Roman', Times, serif;
+    white-space: nowrap; 
+    /* pour continuer sur la meme ligne ca ne reviendra pas sur la ligne  */
+    font-size: 60px;
+    animation: scrolltxt 15s linear infinite;
+}
+
+@keyframes scrolltxt{
+    0%{
+        transform: translate(0%, 0);
+    }
+    30%{
+        color: white;
+    }
+    50%{
+        color:  rgb(131, 33, 87);
+        
+    }
+    100%{
+        transform: translate(-100%, 0);
+        color: white;
+    }
+}
+
+.vdo{
+    margin-top: 80px;
+    border-radius: 5px;
+    border: solid 5px rgb(131, 33, 87) ;
+    padding: 20px;
+}
+/* ...............................css...........................audio............ */
+.lam{
+    margin-top: 40px;
+    /* border: solid 3px rgb(109, 98, 33; */
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;   
+    margin-bottom: 50px;
+}
+/* .artiste{
+    border: solid 5px rgb(131, 33, 87);
+    border-radius: 10px;
+    margin: 50 50 50 50; */
+  /* ............................................................................................. */
+#accor-eve{
+    padding: 40px;
+    background-image: url(./images/lounis\ noir\ \(2\).jpg);
+}
+
+  
+
+
+
+
+/* .......................................css .............formulaire.................................. */
+.contact-form{
+    margin-left: 80px;
+	display: flex;
+	justify-content: center;
+	/* position: absolute; */
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	border: solid 2px rgb(54, 54, 19);
+	display: inline-block;
+	padding: 20px;
+	/* background-color: rgba(255, 252, 208, 0.575); */
+	/* background-image: url(./images/M.jfif); */
+	border-radius: 20px;
+    background-color: rgb(131, 33, 87);
+} 
+h3{
+    font-style: italic;
+    color: white;
+    padding: 10px;
+}
+.contact-input{
+    font-size: 20px;
+    color: rgb(54, 54, 19);
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+#message{
+    height: 200px;
+    width: 100%;
+    border-color: rgb(109, 98, 33);
+    border-radius: 5px;
+    font-style: italic;
+    font-size: 20px;
+    margin-top: 5px;
+}
+.contact-msg{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    margin-right: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ................................css.......footer............................. */
+#menu-reseau{
+    /* background-color: rgb(131, 33, 87); */
+    display: flex;
+    justify-content: space-around;
+    /* border-radius: 50px; */
+    padding: 30px;
+    
+}
+.navbar-brand img{
+    border-radius: 5px;
+}
+footer{
+    background-color: rgb(131, 33, 87);
+    
+}
+.mentions{
+    text-align: center;
+    color: rgb(124, 18, 18);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-decoration: underline white ;
+    padding: 30px;
+       
+}
+
+#phrase-fin{
+    padding: 30px;
+    font-size: 30px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: white;
+}
+.copy{
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    background-color: white;   
+    margin-bottom: 2px;
+}
+
+
+/* ..............................media-QUERRY..................... */
